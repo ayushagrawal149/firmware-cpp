@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Blinker.hpp
+cstdint
+-
+
+/home/ayush/dev/firmware-Cpp/src/Blinker.cpp
+Blinker.hpp
+/home/ayush/dev/firmware-Cpp/src/Blinker.hpp
+iostream
+-
+
+/home/ayush/dev/firmware-Cpp/src/main.cpp
+Blinker.hpp
+/home/ayush/dev/firmware-Cpp/src/Blinker.hpp
+cstdint
+-
+
